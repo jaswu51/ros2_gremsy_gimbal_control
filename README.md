@@ -1,5 +1,5 @@
 # ROS2 Gimbal Control Workspace
-
+This is used for Gremsy G-Hadron Gimbal
 ## Build and Run the Workspace
 ```bash
 cd ros2_gremsy_gimbal_control
@@ -85,6 +85,8 @@ ros2 run image_publisher image_publisher_node rtsp://10.3.1.124:8554/ghadron
 ffmpeg -y -i rtsp://10.3.1.124:8554/ghadron 1 do.jpg
 ros2 topic echo /image_raw
 ```
+## Warnings
+
 
 ### hard-coded path prefix
 needed to be changed to if code is migrated to other machine
