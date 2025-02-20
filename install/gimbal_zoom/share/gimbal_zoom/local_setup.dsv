@@ -1,0 +1,2 @@
+source;share/gimbal_zoom/environment/ament_prefix_path.sh
+source;share/gimbal_zoom/environment/path.sh

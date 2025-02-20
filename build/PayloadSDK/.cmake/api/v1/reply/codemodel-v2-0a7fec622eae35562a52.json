@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Debug-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "PayloadSDK",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "connect::@714eac15f71a94114fdf",
+					"jsonFile" : "target-connect-Debug-dff77eae81f42af38a89.json",
+					"name" : "connect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "download_media_files::@714eac15f71a94114fdf",
+					"jsonFile" : "target-download_media_files-Debug-03ee27c39c5b2f53ca9c.json",
+					"name" : "download_media_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "eo_capture_image::@714eac15f71a94114fdf",
+					"jsonFile" : "target-eo_capture_image-Debug-95375454a3c8c5071ee3.json",
+					"name" : "eo_capture_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "eo_record_video::@714eac15f71a94114fdf",
+					"jsonFile" : "target-eo_record_video-Debug-ba2f764f67bcdc053d74.json",
+					"name" : "eo_record_video",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "eo_set_camera_zoom_focus::@714eac15f71a94114fdf",
+					"jsonFile" : "target-eo_set_camera_zoom_focus-Debug-c093bffe31ba6a94b59a.json",
+					"name" : "eo_set_camera_zoom_focus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "get_video_streaming::@714eac15f71a94114fdf",
+					"jsonFile" : "target-get_video_streaming-Debug-c234f80cb76c529ae79d.json",
+					"name" : "get_video_streaming",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gimbal_set_mode::@714eac15f71a94114fdf",
+					"jsonFile" : "target-gimbal_set_mode-Debug-ee0bde52ffaa28d94d41.json",
+					"name" : "gimbal_set_mode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ir_capture_image::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ir_capture_image-Debug-56dd924756c5d2a8c4d1.json",
+					"name" : "ir_capture_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ir_record_video::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ir_record_video-Debug-766fd6743f1150a62ce0.json",
+					"name" : "ir_record_video",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ir_set_camera_zoom::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ir_set_camera_zoom-Debug-d795260ccb1ae6af9f19.json",
+					"name" : "ir_set_camera_zoom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ir_set_palete::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ir_set_palete-Debug-d1213240ed982d3b169d.json",
+					"name" : "ir_set_palete",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "load_payload_settings::@714eac15f71a94114fdf",
+					"jsonFile" : "target-load_payload_settings-Debug-48de4ce8ad9681573514.json",
+					"name" : "load_payload_settings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "move_gimbal_angle_mode::@714eac15f71a94114fdf",
+					"jsonFile" : "target-move_gimbal_angle_mode-Debug-e675acac78313ec6831f.json",
+					"name" : "move_gimbal_angle_mode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "move_gimbal_speed_mode::@714eac15f71a94114fdf",
+					"jsonFile" : "target-move_gimbal_speed_mode-Debug-fbdd529ade3b4ef779e1.json",
+					"name" : "move_gimbal_speed_mode",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK",
+		"source" : "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

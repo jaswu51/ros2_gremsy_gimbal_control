@@ -1,0 +1,38 @@
+[0.020s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher': AMENT_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorilZEMT/usr/lib PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher -- -j12 -l12
+[0.290s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.290s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.290s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.290s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.290s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.290s] -- Found camera_info_manager: 3.1.10 (/opt/ros/humble/share/camera_info_manager/cmake)
+[0.301s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.303s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.406s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.546s] -- opencv version 4.5.4
+[0.549s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.557s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.558s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.558s] -- Configured cppcheck include dirs: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher/include
+[0.558s] -- Configured cppcheck exclude dirs and/or files: 
+[0.559s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.559s] -- Configured cpplint exclude dirs and/or files: 
+[0.559s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.559s] -- Added test 'lint_cmake' to check CMake code style
+[0.560s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.561s] -- Added test 'uncrustify' to check C / C++ code style
+[0.561s] -- Configured uncrustify additional arguments: 
+[0.561s] -- Added test 'xmllint' to check XML markup files
+[0.562s] -- Configuring done
+[0.580s] -- Generating done
+[0.586s] -- Build files have been written to: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher
+[0.617s] [ 25%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[0.708s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher/src/image_publisher.cpp:45:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+[0.709s]    45 | #include [01;31m[K"cv_bridge/cv_bridge.hpp"[m[K
+[0.709s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.709s] compilation terminated.
+[0.710s] gmake[2]: *** [CMakeFiles/image_publisher.dir/build.make:76: CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o] Error 1
+[0.710s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_publisher.dir/all] Error 2
+[0.710s] gmake: *** [Makefile:146: all] Error 2
+[0.712s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher' returned '2': AMENT_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorilZEMT/usr/lib PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher -- -j12 -l12

@@ -1,0 +1,10 @@
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image/CMakeFiles/uninstall.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image/CMakeFiles/gimbal_capture_image_uninstall.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image/CMakeFiles/gimbal_capture_image.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image/CMakeFiles/test.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image/CMakeFiles/edit_cache.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image/CMakeFiles/rebuild_cache.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image/CMakeFiles/list_install_components.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image/CMakeFiles/install.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image/CMakeFiles/install/local.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image/CMakeFiles/install/strip.dir

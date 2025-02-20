@@ -1,0 +1,1 @@
+Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher -DGHADRON -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher

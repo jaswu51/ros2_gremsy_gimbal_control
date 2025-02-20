@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-eba1168b2cb71fabfd50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gimbal_angle_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_angle_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_angle_control-Debug-ddf34fddfba2938d3c56.json",
+					"name" : "gimbal_angle_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_angle_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_angle_control_uninstall-Debug-f18afa3cf18f783d4afb.json",
+					"name" : "gimbal_angle_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-1c37afa0da8f88d1c0c7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control",
+		"source" : "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

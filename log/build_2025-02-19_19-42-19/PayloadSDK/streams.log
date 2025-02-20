@@ -1,0 +1,39 @@
+[0.022s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK': /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK
+[0.040s] [0m-- GHADRON: 1[0m
+[0.046s] [0mProcessor detected: x86_64[0m
+[0.046s] [0mPath to library: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/x86_64[0m
+[0.089s] -- SUBMODULE_VAR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs
+[0.090s] -- Configuring done
+[0.118s] -- Generating done
+[0.130s] -- Build files have been written to: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK
+[0.136s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK' returned '0': /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK
+[0.139s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK -- -j12 -l12
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target get_video_streaming[0m
+[0.212s] [35m[1mConsolidate compiler generated dependencies of target eo_set_camera_zoom_focus[0m
+[0.212s] [35m[1mConsolidate compiler generated dependencies of target load_payload_settings[0m
+[0.215s] [35m[1mConsolidate compiler generated dependencies of target eo_capture_image[0m
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target gimbal_set_mode[0m
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target eo_record_video[0m
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target connect[0m
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target move_gimbal_speed_mode[0m
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target ir_set_camera_zoom[0m
+[0.233s] [35m[1mConsolidate compiler generated dependencies of target ir_capture_image[0m
+[0.236s] [35m[1mConsolidate compiler generated dependencies of target move_gimbal_angle_mode[0m
+[0.244s] [35m[1mConsolidate compiler generated dependencies of target ir_record_video[0m
+[0.263s] [  7%] Built target load_payload_settings
+[0.274s] [ 21%] Built target get_video_streaming
+[0.274s] [ 21%] Built target eo_set_camera_zoom_focus
+[0.276s] [ 28%] Built target move_gimbal_speed_mode
+[0.290s] [ 42%] Built target eo_capture_image
+[0.291s] [ 42%] Built target gimbal_set_mode
+[0.291s] [ 50%] Built target connect
+[0.295s] [ 57%] Built target ir_capture_image
+[0.297s] [ 64%] Built target ir_set_camera_zoom
+[0.298s] [ 71%] Built target move_gimbal_angle_mode
+[0.303s] [ 78%] Built target eo_record_video
+[0.304s] [ 85%] Built target ir_record_video
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target ir_set_palete[0m
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target download_media_files[0m
+[0.325s] [ 92%] Built target download_media_files
+[0.327s] [100%] Built target ir_set_palete
+[0.340s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK' returned '0': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK -- -j12 -l12

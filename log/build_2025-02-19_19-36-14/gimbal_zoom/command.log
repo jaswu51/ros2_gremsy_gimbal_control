@@ -1,0 +1,1 @@
+Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_zoom -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom

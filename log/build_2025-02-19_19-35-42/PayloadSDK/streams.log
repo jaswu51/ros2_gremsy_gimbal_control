@@ -1,0 +1,6 @@
+[0.026s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK': /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk -DGHADRON -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK
+[0.038s] [0mCMake Error: Parse error in command line argument: GHADRON
+[0.038s]  Should be: VAR:type=value
+[0.039s] [0m
+[0.040s] [0mCMake Error: Run 'cmake --help' for all supported options.[0m
+[0.046s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK' returned '1': /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk -DGHADRON -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK

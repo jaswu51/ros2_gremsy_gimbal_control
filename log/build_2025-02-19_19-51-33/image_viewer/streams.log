@@ -1,0 +1,24 @@
+[0.903s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_viewer': PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/install.log --single-version-externally-managed install_data
+[1.173s] running egg_info
+[1.173s] writing ../../build/image_viewer/image_viewer.egg-info/PKG-INFO
+[1.173s] writing dependency_links to ../../build/image_viewer/image_viewer.egg-info/dependency_links.txt
+[1.174s] writing entry points to ../../build/image_viewer/image_viewer.egg-info/entry_points.txt
+[1.174s] writing requirements to ../../build/image_viewer/image_viewer.egg-info/requires.txt
+[1.174s] writing top-level names to ../../build/image_viewer/image_viewer.egg-info/top_level.txt
+[1.177s] reading manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[1.177s] writing manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[1.177s] running build
+[1.177s] running build_py
+[1.178s] copying image_viewer/image_viewer_node.py -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build/lib/image_viewer
+[1.178s] running install
+[1.178s] running install_lib
+[1.178s] copying /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build/lib/image_viewer/image_viewer_node.py -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer
+[1.179s] byte-compiling /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer/image_viewer_node.py to image_viewer_node.cpython-310.pyc
+[1.179s] running install_data
+[1.180s] running install_egg_info
+[1.181s] removing '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info' (and everything under it)
+[1.181s] Copying ../../build/image_viewer/image_viewer.egg-info to /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info
+[1.182s] running install_scripts
+[1.202s] Installing image_viewer_node script to /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/image_viewer
+[1.203s] writing list of installed files to '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/install.log'
+[1.223s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_viewer' returned '0': PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/install.log --single-version-externally-managed install_data

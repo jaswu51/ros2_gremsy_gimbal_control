@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/connect.dir/connect.cpp.o -o connect  /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/x86_64/libPayloadSDK.a -lgstvideo-1.0 -lgstapp-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 -ljsoncpp /usr/lib/x86_64-linux-gnu/libcurl.so -lstdc++fs 

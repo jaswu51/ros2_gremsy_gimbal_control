@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target ir_image_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ir_image_node[0m
+[100%] Built target ir_image_node
+-- Install configuration: "Debug"
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib/ir_image/ir_image_node
+-- Set runtime path of "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib/ir_image/ir_image_node" to ""
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/package_run_dependencies/ir_image
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/parent_prefix_path/ir_image
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/ament_prefix_path.sh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/ament_prefix_path.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/path.sh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/path.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.bash
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.sh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.zsh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/packages/ir_image
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/cmake/ir_imageConfig.cmake
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/cmake/ir_imageConfig-version.cmake
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.xml

@@ -1,0 +1,841 @@
+[0.114s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DGHADRON=1']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DGHADRON=1'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x793b190745b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x793b190740d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x793b190740d0>>, mixin_verb=('build',))
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.301s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'python'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/PayloadSdk' with type 'cmake' and name 'PayloadSDK'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/eo_image) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/eo_image) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/eo_image) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/eo_image) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/eo_image) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/eo_image) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/eo_image) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/eo_image) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/eo_image) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eo_image' with type 'ros.ament_cmake' and name 'eo_image'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gimbal_angle_control' with type 'ros.ament_cmake' and name 'gimbal_angle_control'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gimbal_status' with type 'ros.ament_cmake' and name 'gimbal_status'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_zoom) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_zoom) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_zoom) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_zoom) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_zoom) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_zoom) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_zoom) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_zoom) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_zoom) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gimbal_zoom' with type 'ros.ament_cmake' and name 'gimbal_zoom'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_publisher) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_publisher' with type 'ros.ament_cmake' and name 'image_publisher'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_viewer' with type 'ros.ament_python' and name 'image_viewer'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ir_image' with type 'ros.ament_cmake' and name 'ir_image'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install
+[0.386s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 414 installed packages in /opt/ros/humble
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.450s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'image_geometry' is in: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry, /opt/ros/humble
+	'cv_bridge' is in: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cv_bridge image_geometry
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'PayloadSDK' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/cv_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'gimbal_angle_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control', 'symlink_install': False, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'gimbal_status' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status', 'symlink_install': False, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'gimbal_zoom' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'gimbal_zoom' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'gimbal_zoom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'gimbal_zoom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'gimbal_zoom' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'gimbal_zoom' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'gimbal_zoom' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'gimbal_zoom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'gimbal_zoom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'gimbal_zoom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_zoom', 'symlink_install': False, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'image_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/image_geometry', 'symlink_install': False, 'test_result_base': None}
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'image_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_viewer', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'eo_image' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'eo_image' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'eo_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'eo_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'eo_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'eo_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'eo_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'eo_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'eo_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'eo_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/eo_image', 'symlink_install': False, 'test_result_base': None}
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'image_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'ir_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/opencv_tests', 'symlink_install': False, 'test_result_base': None}
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'vision_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/vision_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv', 'merge_install': False, 'path': '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/vision_opencv', 'symlink_install': False, 'test_result_base': None}
+[0.459s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[0.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/cv_bridge'
+[0.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/image_geometry' with build type 'ament_cmake'
+[0.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/image_geometry'
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk'
+[0.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control' with build type 'ament_cmake'
+[0.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control'
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status' with build type 'ament_cmake'
+[0.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status'
+[0.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.489s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_zoom' with build type 'ament_cmake'
+[0.489s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_zoom'
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.495s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_viewer' with build type 'ament_python'
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_viewer', 'ament_prefix_path')
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/hook/ament_prefix_path.ps1'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/hook/ament_prefix_path.dsv'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/hook/ament_prefix_path.sh'
+[0.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge -- -j12 -l12
+[0.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry -- -j12 -l12
+[0.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK -- -j12 -l12
+[0.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control -- -j12 -l12
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status -- -j12 -l12
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom -- -j12 -l12
+[0.917s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_viewer'
+[0.917s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status -- -j12 -l12
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control -- -j12 -l12
+[0.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control
+[0.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom -- -j12 -l12
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom
+[0.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK' returned '0': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK -- -j12 -l12
+[0.943s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'PayloadSDK' because it has no 'install' target
+[0.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(PayloadSDK)
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK' for CMake module files
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK' for CMake config files
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK/bin'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK/lib/pkgconfig/PayloadSDK.pc'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK/lib/python3.10/site-packages'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK/bin'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK/share/PayloadSDK/package.ps1'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK/share/PayloadSDK/package.dsv'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK/share/PayloadSDK/package.sh'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK/share/PayloadSDK/package.bash'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK/share/PayloadSDK/package.zsh'
+[0.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK/share/colcon-core/packages/PayloadSDK)
+[0.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_status)
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status' for CMake module files
+[0.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status' for CMake config files
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_status', 'cmake_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.dsv'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.sh'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/lib'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/bin'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/lib/pkgconfig/gimbal_status.pc'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/lib/python3.10/site-packages'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/bin'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.sh'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.bash'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.zsh'
+[0.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/colcon-core/packages/gimbal_status)
+[0.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_status)
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status' for CMake module files
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status' for CMake config files
+[0.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_status', 'cmake_prefix_path')
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.sh'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/lib'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/bin'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/lib/pkgconfig/gimbal_status.pc'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/lib/python3.10/site-packages'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/bin'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.ps1'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.sh'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.bash'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.zsh'
+[0.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/colcon-core/packages/gimbal_status)
+[0.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_angle_control)
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control' for CMake module files
+[0.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control' for CMake config files
+[0.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_angle_control', 'cmake_prefix_path')
+[0.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.dsv'
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.sh'
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/lib'
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/bin'
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/lib/pkgconfig/gimbal_angle_control.pc'
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/lib/python3.10/site-packages'
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/bin'
+[0.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.ps1'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.dsv'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.sh'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.bash'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.zsh'
+[0.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/colcon-core/packages/gimbal_angle_control)
+[0.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_angle_control)
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control' for CMake module files
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control' for CMake config files
+[0.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_angle_control', 'cmake_prefix_path')
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.ps1'
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.dsv'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.sh'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/lib'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/bin'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/lib/pkgconfig/gimbal_angle_control.pc'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/lib/python3.10/site-packages'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/bin'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.ps1'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.dsv'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.sh'
+[1.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.bash'
+[1.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.zsh'
+[1.002s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/colcon-core/packages/gimbal_angle_control)
+[1.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_zoom)
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom' for CMake module files
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom' for CMake config files
+[1.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom
+[1.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_zoom', 'cmake_prefix_path')
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/hook/cmake_prefix_path.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/hook/cmake_prefix_path.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/hook/cmake_prefix_path.sh'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/lib'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/bin'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/lib/pkgconfig/gimbal_zoom.pc'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/lib/python3.10/site-packages'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/bin'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.ps1'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.dsv'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.sh'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.bash'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.zsh'
+[1.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/colcon-core/packages/gimbal_zoom)
+[1.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_zoom)
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom' for CMake module files
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom' for CMake config files
+[1.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_zoom', 'cmake_prefix_path')
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/hook/cmake_prefix_path.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/hook/cmake_prefix_path.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/hook/cmake_prefix_path.sh'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/lib'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/bin'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/lib/pkgconfig/gimbal_zoom.pc'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/lib/python3.10/site-packages'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/bin'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.dsv'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.sh'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.bash'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.zsh'
+[1.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/colcon-core/packages/gimbal_zoom)
+[1.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge -- -j12 -l12
+[1.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge
+[1.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry -- -j12 -l12
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry
+[1.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge' for CMake module files
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge' for CMake config files
+[1.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[1.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib'
+[1.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/bin'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib/python3.10/site-packages'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/bin'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[1.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[1.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge' for CMake module files
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge' for CMake config files
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib'
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/bin'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib/python3.10/site-packages'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/bin'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[1.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[1.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/eo_image' with build type 'ament_cmake'
+[1.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/eo_image'
+[1.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher' with build type 'ament_cmake'
+[1.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher'
+[1.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.226s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image' with build type 'ament_cmake'
+[1.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image'
+[1.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.233s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/opencv_tests' with build type 'ament_python'
+[1.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'ament_prefix_path')
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.ps1'
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.dsv'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.sh'
+[1.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry' for CMake module files
+[1.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry' for CMake config files
+[1.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib'
+[1.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[1.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.ps1'
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/bin'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib/python3.10/site-packages'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/bin'
+[1.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.ps1'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.dsv'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.sh'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.bash'
+[1.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.zsh'
+[1.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/colcon-core/packages/image_geometry)
+[1.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry' for CMake module files
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry' for CMake config files
+[1.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.ps1'
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[1.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib'
+[1.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.ps1'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/bin'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib/python3.10/site-packages'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/bin'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.ps1'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.sh'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.bash'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.zsh'
+[1.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/colcon-core/packages/image_geometry)
+[1.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/vision_opencv' with build type 'ament_cmake'
+[1.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/vision_opencv'
+[1.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image -- -j12 -l12
+[1.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher -- -j12 -l12
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image -- -j12 -l12
+[1.609s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/opencv_tests'
+[1.610s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/vision_opencv': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/vision_opencv -- -j12 -l12
+[1.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_viewer': PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/install.log --single-version-externally-managed install_data
+[1.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image' returned '0': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image -- -j12 -l12
+[1.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image
+[1.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher -- -j12 -l12
+[1.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher
+[1.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_image)
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image' for CMake module files
+[1.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image' returned '0': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image' for CMake config files
+[1.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_image', 'cmake_prefix_path')
+[1.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/hook/cmake_prefix_path.ps1'
+[1.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/hook/cmake_prefix_path.dsv'
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/hook/cmake_prefix_path.sh'
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/bin'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib/pkgconfig/ir_image.pc'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib/python3.10/site-packages'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/bin'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.ps1'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.dsv'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.sh'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.bash'
+[1.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.zsh'
+[1.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/colcon-core/packages/ir_image)
+[1.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_image)
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image' for CMake module files
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image' for CMake config files
+[1.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_image', 'cmake_prefix_path')
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/hook/cmake_prefix_path.ps1'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/hook/cmake_prefix_path.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/hook/cmake_prefix_path.sh'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/bin'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib/pkgconfig/ir_image.pc'
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib/python3.10/site-packages'
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/bin'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.ps1'
+[1.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.dsv'
+[1.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.sh'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.bash'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.zsh'
+[1.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/colcon-core/packages/ir_image)
+[1.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_publisher)
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher' for CMake module files
+[1.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher' for CMake config files
+[1.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'cmake_prefix_path')
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.ps1'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.dsv'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.sh'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib'
+[1.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'ld_library_path_lib')
+[1.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.ps1'
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.dsv'
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.sh'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/bin'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/pkgconfig/image_publisher.pc'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/python3.10/site-packages'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/bin'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.ps1'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.dsv'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.sh'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.bash'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.zsh'
+[1.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/colcon-core/packages/image_publisher)
+[1.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_publisher)
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher' for CMake module files
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher' for CMake config files
+[1.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'cmake_prefix_path')
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.ps1'
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.dsv'
+[1.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.sh'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib'
+[1.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'ld_library_path_lib')
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.ps1'
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.dsv'
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.sh'
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/bin'
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/pkgconfig/image_publisher.pc'
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/python3.10/site-packages'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/bin'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.ps1'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.sh'
+[1.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.bash'
+[1.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.zsh'
+[1.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/colcon-core/packages/image_publisher)
+[1.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/vision_opencv' returned '0': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/vision_opencv -- -j12 -l12
+[1.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/vision_opencv': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/vision_opencv
+[1.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv' for CMake module files
+[1.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/vision_opencv' returned '0': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/vision_opencv
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv' for CMake config files
+[1.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[1.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.ps1'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/bin'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/lib/python3.10/site-packages'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/bin'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/package.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/package.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/package.sh'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/package.bash'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/package.zsh'
+[1.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[1.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv' for CMake module files
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv' for CMake config files
+[1.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.ps1'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/bin'
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/lib/python3.10/site-packages'
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/bin'
+[1.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/package.ps1'
+[1.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/package.dsv'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/package.sh'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/package.bash'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/vision_opencv/package.zsh'
+[1.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer' for CMake module files
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_viewer' returned '0': PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/install.log --single-version-externally-managed install_data
+[2.008s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer' for CMake config files
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/bin'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/pkgconfig/image_viewer.pc'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages'
+[2.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_viewer', 'pythonpath')
+[2.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/hook/pythonpath.ps1'
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/hook/pythonpath.dsv'
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/hook/pythonpath.sh'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/bin'
+[2.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_viewer)
+[2.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/package.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/package.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/package.sh'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/package.bash'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer/package.zsh'
+[2.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/colcon-core/packages/image_viewer)
+[2.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/opencv_tests': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/install.log --single-version-externally-managed install_data
+[2.502s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests' for CMake module files
+[2.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/opencv_tests' returned '0': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/install.log --single-version-externally-managed install_data
+[2.504s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests' for CMake config files
+[2.504s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib'
+[2.504s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/bin'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/pkgconfig/opencv_tests.pc'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/python3.10/site-packages'
+[2.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'pythonpath')
+[2.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/hook/pythonpath.ps1'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/hook/pythonpath.dsv'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/hook/pythonpath.sh'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/bin'
+[2.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tests)
+[2.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/package.ps1'
+[2.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/package.dsv'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/package.sh'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/package.bash'
+[2.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/opencv_tests/package.zsh'
+[2.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/share/colcon-core/packages/opencv_tests)
+[12.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image' returned '0': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image -- -j12 -l12
+[12.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image
+[12.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eo_image)
+[12.238s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image' for CMake module files
+[12.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image' returned '0': CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/vision_opencv:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image
+[12.239s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image' for CMake config files
+[12.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('eo_image', 'cmake_prefix_path')
+[12.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/hook/cmake_prefix_path.ps1'
+[12.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/hook/cmake_prefix_path.dsv'
+[12.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/hook/cmake_prefix_path.sh'
+[12.241s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/lib'
+[12.241s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/bin'
+[12.241s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/lib/pkgconfig/eo_image.pc'
+[12.242s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/lib/python3.10/site-packages'
+[12.242s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/bin'
+[12.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.ps1'
+[12.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.dsv'
+[12.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.sh'
+[12.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.bash'
+[12.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.zsh'
+[12.245s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/colcon-core/packages/eo_image)
+[12.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eo_image)
+[12.245s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image' for CMake module files
+[12.246s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image' for CMake config files
+[12.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('eo_image', 'cmake_prefix_path')
+[12.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/hook/cmake_prefix_path.ps1'
+[12.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/hook/cmake_prefix_path.dsv'
+[12.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/hook/cmake_prefix_path.sh'
+[12.248s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/lib'
+[12.248s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/bin'
+[12.248s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/lib/pkgconfig/eo_image.pc'
+[12.248s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/lib/python3.10/site-packages'
+[12.248s] Level 1:colcon.colcon_core.environment:checking '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/bin'
+[12.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.ps1'
+[12.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.dsv'
+[12.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.sh'
+[12.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.bash'
+[12.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.zsh'
+[12.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/colcon-core/packages/eo_image)
+[12.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.252s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.252s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.252s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.260s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.272s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/local_setup.ps1'
+[12.273s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/_local_setup_util_ps1.py'
+[12.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/setup.ps1'
+[12.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/local_setup.sh'
+[12.277s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/_local_setup_util_sh.py'
+[12.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/setup.sh'
+[12.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/local_setup.bash'
+[12.280s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/setup.bash'
+[12.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/local_setup.zsh'
+[12.282s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/setup.zsh'

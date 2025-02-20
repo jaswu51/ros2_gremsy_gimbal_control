@@ -1,0 +1,37 @@
+[0.939s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_viewer': PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/install.log --single-version-externally-managed install_data
+[1.193s] running egg_info
+[1.194s] creating ../../build/image_viewer/image_viewer.egg-info
+[1.194s] writing ../../build/image_viewer/image_viewer.egg-info/PKG-INFO
+[1.194s] writing dependency_links to ../../build/image_viewer/image_viewer.egg-info/dependency_links.txt
+[1.194s] writing entry points to ../../build/image_viewer/image_viewer.egg-info/entry_points.txt
+[1.194s] writing requirements to ../../build/image_viewer/image_viewer.egg-info/requires.txt
+[1.194s] writing top-level names to ../../build/image_viewer/image_viewer.egg-info/top_level.txt
+[1.196s] writing manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[1.198s] reading manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[1.198s] writing manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[1.198s] running build
+[1.199s] running build_py
+[1.199s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build
+[1.199s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build/lib
+[1.199s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build/lib/image_viewer
+[1.199s] copying image_viewer/__init__.py -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build/lib/image_viewer
+[1.199s] copying image_viewer/image_viewer_node.py -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build/lib/image_viewer
+[1.199s] running install
+[1.199s] running install_lib
+[1.200s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer
+[1.200s] copying /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build/lib/image_viewer/__init__.py -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer
+[1.200s] copying /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build/lib/image_viewer/image_viewer_node.py -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer
+[1.200s] byte-compiling /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer/__init__.py to __init__.cpython-310.pyc
+[1.200s] byte-compiling /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer/image_viewer_node.py to image_viewer_node.cpython-310.pyc
+[1.201s] running install_data
+[1.201s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/ament_index
+[1.201s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/ament_index/resource_index
+[1.201s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/ament_index/resource_index/packages
+[1.201s] copying resource/image_viewer -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/ament_index/resource_index/packages
+[1.202s] copying package.xml -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/share/image_viewer
+[1.202s] running install_egg_info
+[1.203s] Copying ../../build/image_viewer/image_viewer.egg-info to /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info
+[1.204s] running install_scripts
+[1.222s] Installing image_viewer_node script to /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/image_viewer
+[1.222s] writing list of installed files to '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/install.log'
+[1.243s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_viewer' returned '0': PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_viewer/install.log --single-version-externally-managed install_data

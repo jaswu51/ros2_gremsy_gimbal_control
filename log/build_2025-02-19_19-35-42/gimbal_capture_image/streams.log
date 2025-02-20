@@ -1,0 +1,5 @@
+[0.023s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_capture_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_capture_image -DGHADRON -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image
+[0.036s] [0mCMake Error: Parse error in command line argument: GHADRON
+[0.036s]  Should be: VAR:type=value
+[0.036s] [0m
+[0.036s] [0mCMake Error: Run 'cmake --help' for all supported options.[0m

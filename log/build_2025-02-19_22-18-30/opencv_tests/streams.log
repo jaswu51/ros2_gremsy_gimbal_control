@@ -1,0 +1,23 @@
+[0.748s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/python3.10/site-packages:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/install.log --single-version-externally-managed install_data
+[1.000s] running egg_info
+[1.001s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[1.001s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[1.001s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[1.002s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[1.002s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[1.004s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.005s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.005s] running build
+[1.005s] running build_py
+[1.005s] running install
+[1.006s] running install_lib
+[1.007s] running install_data
+[1.007s] running install_egg_info
+[1.008s] removing '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.2.1-py3.10.egg-info' (and everything under it)
+[1.009s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.2.1-py3.10.egg-info
+[1.009s] running install_scripts
+[1.028s] Installing broadcast script to /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/opencv_tests
+[1.029s] Installing rosfacedetect script to /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/opencv_tests
+[1.029s] Installing source script to /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/opencv_tests
+[1.029s] writing list of installed files to '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/install.log'
+[1.047s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests/lib/python3.10/site-packages:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/opencv_tests/install.log --single-version-externally-managed install_data

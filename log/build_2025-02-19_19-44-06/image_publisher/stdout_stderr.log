@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target image_publisher[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libimage_publisher.so[0m
+[ 50%] Built target image_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable image_publisher_node[0m
+[100%] Built target image_publisher_node
+-- Install configuration: ""
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include/image_publisher
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include/image_publisher/visibility.h
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include/image_publisher/image_publisher.hpp
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/library_path.sh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/library_path.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/libimage_publisher.so
+-- Set runtime path of "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/libimage_publisher.so" to ""
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/image_publisher/image_publisher_node
+-- Set runtime path of "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/image_publisher/image_publisher_node" to ""
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_component_file.launch.py
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/splash.png
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/path.sh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/path.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.bash
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.sh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.zsh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/packages/image_publisher
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.xml

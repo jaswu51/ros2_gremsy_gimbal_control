@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a2ef6cdbd58b7e2515f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "image_publisher",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "image_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_publisher-5ca57a1329ef21c09ee8.json",
+					"name" : "image_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_publisher_node-1ecf5f66072788347ce0.json",
+					"name" : "image_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_publisher_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_publisher_uninstall-6ee258f108458cc2c875.json",
+					"name" : "image_publisher_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-313baa51bf7d41250f81.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher",
+		"source" : "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

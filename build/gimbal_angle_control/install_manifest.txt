@@ -1,0 +1,16 @@
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/lib/gimbal_angle_control/gimbal_angle_control
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/ament_index/resource_index/package_run_dependencies/gimbal_angle_control
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/ament_index/resource_index/parent_prefix_path/gimbal_angle_control
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.bash
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.zsh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/ament_index/resource_index/packages/gimbal_angle_control
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig.cmake
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig-version.cmake
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.xml

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d61ac1a637622c9bc5e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gimbal_zoom",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_zoom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_zoom-Debug-43f48adf610e15d545d5.json",
+					"name" : "gimbal_zoom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_zoom_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_zoom_uninstall-Debug-a30065fae5bcbf12ade7.json",
+					"name" : "gimbal_zoom_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-399f1029039368442b89.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom",
+		"source" : "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_zoom"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target gimbal_angle_control[0m
+[100%] Built target gimbal_angle_control
+-- Install configuration: "Debug"
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/lib/gimbal_angle_control/gimbal_angle_control
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/ament_index/resource_index/package_run_dependencies/gimbal_angle_control
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/ament_index/resource_index/parent_prefix_path/gimbal_angle_control
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.sh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.sh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.dsv
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.bash
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.sh
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.zsh
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.dsv
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/ament_index/resource_index/packages/gimbal_angle_control
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig.cmake
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig-version.cmake
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.xml

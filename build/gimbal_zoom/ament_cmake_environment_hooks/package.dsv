@@ -1,0 +1,4 @@
+source;share/gimbal_zoom/local_setup.bash
+source;share/gimbal_zoom/local_setup.dsv
+source;share/gimbal_zoom/local_setup.sh
+source;share/gimbal_zoom/local_setup.zsh

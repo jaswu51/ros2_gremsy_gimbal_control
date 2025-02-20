@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for one of the modules 'glib-2.0'
+-- Checking for modules 'gstreamer-1.0;gstreamer-video-1.0;gstreamer-app-1.0'
+--   Found gstreamer-1.0, version 1.20.3
+--   Found gstreamer-video-1.0, version 1.20.1
+--   Found gstreamer-app-1.0, version 1.20.1
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+-- SUBMODULE_VAR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK
+[  7%] [32mBuilding CXX object examples/CMakeFiles/eo_record_video.dir/eo_record_video.cpp.o[0m
+[  7%] [32mBuilding CXX object examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o[0m
+[ 11%] [32mBuilding CXX object examples/CMakeFiles/connect.dir/connect.cpp.o[0m
+[ 15%] [32mBuilding CXX object examples/CMakeFiles/ir_capture_image.dir/ir_capture_image.cpp.o[0m
+[ 23%] [32mBuilding CXX object examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o[0m
+[ 23%] [32mBuilding CXX object examples/CMakeFiles/eo_set_camera_zoom_focus.dir/eo_set_camera_zoom_focus.cpp.o[0m
+[ 26%] [32mBuilding CXX object examples/CMakeFiles/move_gimbal_angle_mode.dir/move_gimbal_angle_mode.cpp.o[0m
+[ 30%] [32mBuilding CXX object examples/CMakeFiles/gimbal_set_mode.dir/gimbal_set_mode.cpp.o[0m
+[ 34%] [32mBuilding CXX object examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o[0m
+[ 38%] [32mBuilding CXX object examples/CMakeFiles/ir_record_video.dir/ir_record_video.cpp.o[0m
+[ 46%] [32mBuilding CXX object examples/CMakeFiles/ir_set_palete.dir/ir_set_palete.cpp.o[0m
+[ 46%] [32mBuilding CXX object examples/CMakeFiles/move_gimbal_speed_mode.dir/move_gimbal_speed_mode.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable ir_record_video[0m
+[ 53%] [32m[1mLinking CXX executable eo_record_video[0m
+[ 57%] [32m[1mLinking CXX executable gimbal_set_mode[0m
+[ 61%] [32m[1mLinking CXX executable move_gimbal_angle_mode[0m
+[ 61%] Built target ir_record_video
+[ 65%] [32m[1mLinking CXX executable ir_set_palete[0m
+[ 69%] [32m[1mLinking CXX executable ir_set_camera_zoom[0m
+[ 73%] [32m[1mLinking CXX executable connect[0m
+[ 76%] [32m[1mLinking CXX executable eo_capture_image[0m
+[ 80%] [32m[1mLinking CXX executable load_payload_settings[0m
+[ 84%] [32m[1mLinking CXX executable eo_set_camera_zoom_focus[0m
+[ 84%] Built target eo_record_video
+[ 88%] [32m[1mLinking CXX executable ir_capture_image[0m
+[ 92%] [32mBuilding CXX object examples/CMakeFiles/download_media_files.dir/download_media_files.cpp.o[0m
+[ 92%] Built target gimbal_set_mode
+[ 92%] Built target ir_set_camera_zoom
+[ 92%] Built target move_gimbal_angle_mode
+[ 92%] Built target ir_set_palete
+[ 92%] Built target eo_capture_image
+[ 92%] Built target connect
+[ 92%] Built target eo_set_camera_zoom_focus
+[ 92%] Built target load_payload_settings
+[ 96%] [32m[1mLinking CXX executable move_gimbal_speed_mode[0m
+[ 96%] Built target ir_capture_image
+[ 96%] Built target move_gimbal_speed_mode
+[100%] [32m[1mLinking CXX executable download_media_files[0m
+[100%] Built target download_media_files

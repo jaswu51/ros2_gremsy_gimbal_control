@@ -1,0 +1,71 @@
+[0.022s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/image_geometry -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry
+[0.038s] -- Found ament_cmake_python: 1.3.11 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.038s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.333s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.363s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.374s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.476s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.581s] -- Configuring done
+[0.597s] -- Generating done
+[0.603s] -- Build files have been written to: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry
+[0.609s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/vision_opencv/image_geometry -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry
+[0.611s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry -- -j12 -l12
+[0.655s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.656s] [35m[1mConsolidate compiler generated dependencies of target image_geometry[0m
+[0.674s] [ 22%] Built target gtest_main
+[0.674s] [ 44%] Built target gtest
+[0.678s] [ 77%] Built target image_geometry
+[0.680s] [ 77%] Built target ament_cmake_python_copy_image_geometry
+[0.691s] [35m[1mConsolidate compiler generated dependencies of target image_geometry-utest[0m
+[0.708s] [100%] Built target image_geometry-utest
+[0.995s] running egg_info
+[0.996s] writing image_geometry.egg-info/PKG-INFO
+[0.997s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[0.997s] writing top-level names to image_geometry.egg-info/top_level.txt
+[1.000s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.001s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.039s] [100%] Built target ament_cmake_python_build_image_geometry_egg
+[1.051s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry -- -j12 -l12
+[1.064s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry
+[1.073s] -- Install configuration: ""
+[1.073s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[1.073s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[1.073s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info
+[1.073s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/SOURCES.txt
+[1.073s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/dependency_links.txt
+[1.073s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/top_level.txt
+[1.074s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/PKG-INFO
+[1.074s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry
+[1.074s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py
+[1.074s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py
+[1.107s] Listing '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry'...
+[1.112s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/include/image_geometry
+[1.112s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/include/image_geometry/image_geometry
+[1.113s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[1.113s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[1.113s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[1.113s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/lib/libimage_geometry.so
+[1.113s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[1.113s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[1.113s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[1.113s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[1.113s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[1.114s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[1.114s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[1.114s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[1.114s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[1.114s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[1.114s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.dsv
+[1.114s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[1.114s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[1.114s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[1.115s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[1.115s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.115s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[1.115s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[1.115s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_geometry/share/image_geometry/package.xml
+[1.118s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_geometry

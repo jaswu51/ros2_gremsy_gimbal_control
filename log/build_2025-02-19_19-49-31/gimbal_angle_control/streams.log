@@ -1,0 +1,22 @@
+[0.028s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control -- -j12 -l12
+[0.192s] [100%] Built target gimbal_angle_control
+[0.378s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control -- -j12 -l12
+[0.380s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control
+[0.395s] -- Install configuration: "Debug"
+[0.395s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/lib/gimbal_angle_control/gimbal_angle_control
+[0.396s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/ament_index/resource_index/package_run_dependencies/gimbal_angle_control
+[0.396s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/ament_index/resource_index/parent_prefix_path/gimbal_angle_control
+[0.396s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.sh
+[0.396s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.dsv
+[0.396s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.sh
+[0.396s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.dsv
+[0.396s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.bash
+[0.396s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.sh
+[0.397s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.zsh
+[0.397s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.dsv
+[0.397s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.dsv
+[0.397s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/ament_index/resource_index/packages/gimbal_angle_control
+[0.398s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig.cmake
+[0.399s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig-version.cmake
+[0.399s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control/share/gimbal_angle_control/package.xml
+[0.414s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control

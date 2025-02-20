@@ -1,0 +1,40 @@
+[0.033s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher': AMENT_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher -- -j12 -l12
+[0.104s] [ 50%] Built target image_publisher
+[0.133s] [100%] Built target image_publisher_node
+[0.341s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher' returned '0': AMENT_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher -- -j12 -l12
+[0.342s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher': AMENT_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher
+[0.350s] -- Install configuration: ""
+[0.351s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include
+[0.351s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include/image_publisher
+[0.351s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include/image_publisher/visibility.h
+[0.351s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include/image_publisher/image_publisher.hpp
+[0.351s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/library_path.sh
+[0.352s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/library_path.dsv
+[0.352s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/libimage_publisher.so
+[0.353s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/image_publisher/image_publisher_node
+[0.353s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch
+[0.354s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+[0.354s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_component_file.launch.py
+[0.355s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+[0.355s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/splash.png
+[0.355s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+[0.356s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher
+[0.356s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher
+[0.356s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh
+[0.356s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv
+[0.359s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/path.sh
+[0.360s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/path.dsv
+[0.360s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.bash
+[0.360s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.sh
+[0.360s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.zsh
+[0.360s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.dsv
+[0.360s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.dsv
+[0.361s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/packages/image_publisher
+[0.361s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher
+[0.361s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.361s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.361s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[0.361s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+[0.362s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+[0.362s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.xml
+[0.380s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher' returned '0': AMENT_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorY4z5Nw/usr/lib PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher

@@ -1,0 +1,58 @@
+[0.044s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge -- -j12 -l12
+[0.142s] [ 12%] Built target gtest_main
+[0.165s] [ 25%] Built target gtest
+[0.168s] [ 25%] Built target ament_cmake_python_copy_cv_bridge
+[0.168s] [ 43%] Built target cv_bridge
+[0.246s] [ 62%] Built target cv_bridge_boost
+[0.247s] [100%] Built target cv_bridge-utest
+[0.536s] running egg_info
+[0.536s] writing cv_bridge.egg-info/PKG-INFO
+[0.536s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[0.537s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[0.540s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[0.541s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[0.574s] [100%] Built target ament_cmake_python_build_cv_bridge_egg
+[0.586s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge -- -j12 -l12
+[0.587s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge
+[0.595s] -- Install configuration: ""
+[0.595s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[0.595s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[0.595s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info
+[0.595s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/SOURCES.txt
+[0.595s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/dependency_links.txt
+[0.595s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/top_level.txt
+[0.596s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/PKG-INFO
+[0.596s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge
+[0.596s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[0.596s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[0.628s] Listing '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[0.628s] Listing '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...
+[0.633s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib/libcv_bridge.so
+[0.634s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[0.634s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost/cv_bridge_boost.so
+[0.634s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/include/cv_bridge
+[0.634s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/include/cv_bridge/cv_bridge
+[0.635s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[0.635s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[0.635s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/lib/libcv_bridge.so
+[0.635s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[0.635s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[0.635s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[0.635s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[0.635s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[0.636s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[0.636s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[0.636s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[0.636s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[0.636s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[0.636s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[0.636s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[0.636s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[0.637s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[0.637s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[0.637s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.637s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[0.637s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[0.637s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[0.637s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/cv_bridge/share/cv_bridge/package.xml
+[0.639s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/cv_bridge

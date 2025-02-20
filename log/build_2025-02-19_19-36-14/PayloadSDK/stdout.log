@@ -1,0 +1,32 @@
+-- SUBMODULE_VAR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK
+[35m[1mConsolidate compiler generated dependencies of target connect[0m
+[35m[1mConsolidate compiler generated dependencies of target eo_set_camera_zoom_focus[0m
+[35m[1mConsolidate compiler generated dependencies of target eo_capture_image[0m
+[35m[1mConsolidate compiler generated dependencies of target eo_record_video[0m
+[35m[1mConsolidate compiler generated dependencies of target move_gimbal_angle_mode[0m
+[35m[1mConsolidate compiler generated dependencies of target move_gimbal_speed_mode[0m
+[35m[1mConsolidate compiler generated dependencies of target ir_set_camera_zoom[0m
+[35m[1mConsolidate compiler generated dependencies of target ir_record_video[0m
+[35m[1mConsolidate compiler generated dependencies of target load_payload_settings[0m
+[35m[1mConsolidate compiler generated dependencies of target gimbal_set_mode[0m
+[35m[1mConsolidate compiler generated dependencies of target ir_capture_image[0m
+[35m[1mConsolidate compiler generated dependencies of target get_video_streaming[0m
+[  7%] Built target connect
+[ 14%] Built target eo_capture_image
+[ 21%] Built target eo_record_video
+[ 32%] Built target move_gimbal_angle_mode
+[ 35%] Built target eo_set_camera_zoom_focus
+[ 42%] Built target ir_record_video
+[ 50%] Built target move_gimbal_speed_mode
+[ 57%] Built target gimbal_set_mode
+[ 64%] Built target load_payload_settings
+[ 71%] Built target ir_set_camera_zoom
+[ 78%] Built target get_video_streaming
+[ 85%] Built target ir_capture_image
+[35m[1mConsolidate compiler generated dependencies of target ir_set_palete[0m
+[35m[1mConsolidate compiler generated dependencies of target download_media_files[0m
+[ 92%] Built target ir_set_palete
+[100%] Built target download_media_files

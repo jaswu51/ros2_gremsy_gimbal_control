@@ -1,0 +1,28 @@
+[0.027s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK -- -j12 -l12
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target load_payload_settings[0m
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target ir_capture_image[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target eo_capture_image[0m
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target connect[0m
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target ir_record_video[0m
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target gimbal_set_mode[0m
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target eo_record_video[0m
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target eo_set_camera_zoom_focus[0m
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target ir_set_camera_zoom[0m
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target move_gimbal_speed_mode[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target move_gimbal_angle_mode[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target ir_set_palete[0m
+[0.119s] [  7%] Built target load_payload_settings
+[0.126s] [ 15%] Built target eo_capture_image
+[0.130s] [ 23%] Built target ir_capture_image
+[0.131s] [ 30%] Built target gimbal_set_mode
+[0.135s] [ 38%] Built target ir_record_video
+[0.139s] [ 46%] Built target ir_set_camera_zoom
+[0.145s] [ 53%] Built target connect
+[0.145s] [ 61%] Built target eo_set_camera_zoom_focus
+[0.145s] [ 69%] Built target move_gimbal_angle_mode
+[0.146s] [ 76%] Built target eo_record_video
+[0.146s] [ 84%] Built target ir_set_palete
+[0.147s] [ 92%] Built target move_gimbal_speed_mode
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target download_media_files[0m
+[0.162s] [100%] Built target download_media_files
+[0.181s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK' returned '0': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK -- -j12 -l12

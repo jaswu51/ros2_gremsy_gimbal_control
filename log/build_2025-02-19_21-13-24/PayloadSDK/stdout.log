@@ -1,0 +1,14 @@
+[  7%] Built target eo_capture_image
+[ 14%] Built target load_payload_settings
+[ 21%] Built target eo_set_camera_zoom_focus
+[ 35%] Built target move_gimbal_angle_mode
+[ 35%] Built target connect
+[ 42%] Built target get_video_streaming
+[ 50%] Built target ir_capture_image
+[ 57%] Built target gimbal_set_mode
+[ 64%] Built target ir_record_video
+[ 71%] Built target eo_record_video
+[ 78%] Built target ir_set_camera_zoom
+[ 85%] Built target move_gimbal_speed_mode
+[100%] Built target download_media_files
+[100%] Built target ir_set_palete

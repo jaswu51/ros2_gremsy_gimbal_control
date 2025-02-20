@@ -1,0 +1,230 @@
+[0.038s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.250s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.365s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.366s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.370s] -- Detecting CXX compiler ABI info
+[0.457s] -- Detecting CXX compiler ABI info - done
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.469s] [0m-- GHADRON: 1[0m
+[0.469s] -- Detecting CXX compile features
+[0.469s] -- Detecting CXX compile features - done
+[0.470s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.637s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.754s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.807s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.813s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.822s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.907s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.910s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.993s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.029s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.077s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.088s] -- Looking for pthread.h
+[1.155s] -- Looking for pthread.h - found
+[1.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.221s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.222s] -- Found Threads: TRUE  
+[1.281s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.749s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.828s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.829s] -- Configured cppcheck include dirs: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/include;/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs;/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64;/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payload-define;/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/third-party/mavlink/include;/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0;/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src
+[1.829s] -- Configured cppcheck exclude dirs and/or files: 
+[1.830s] -- Added test 'lint_cmake' to check CMake code style
+[1.831s] -- Added test 'uncrustify' to check C / C++ code style
+[1.831s] -- Configured uncrustify additional arguments: 
+[1.832s] -- Added test 'xmllint' to check XML markup files
+[1.834s] -- Configuring done
+[1.843s] -- Generating done
+[1.848s] -- Build files have been written to: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status
+[1.856s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status
+[1.856s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status -- -j12 -l12
+[1.902s] [ 50%] [32mBuilding CXX object CMakeFiles/gimbal_status_node.dir/src/gimbal_status_node.cpp.o[0m
+[4.272s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../protocol.h:4[m[K,
+[4.272s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:30[m[K,
+[4.273s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[4.273s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:5[m[K,
+[4.273s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5[m[K,
+[4.273s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[4.273s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../mavlink_types.h:78:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.273s]    78 |     struct [01;35m[K{[m[K
+[4.273s]       |            [01;35m[K^[m[K
+[4.273s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../mavlink_types.h:17:40:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMAVPACKED[m[K’
+[4.273s]    17 |   #define MAVPACKED( __Declaration__ ) [01;36m[K__Declaration__[m[K __attribute__((packed))
+[4.273s]       |                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.352s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2567[m[K,
+[4.352s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[4.352s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:5[m[K,
+[4.352s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5[m[K,
+[4.352s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[4.352s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_attitude_target_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_attitude_target_t*)[m[K’:
+[4.352s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:183:242:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.353s]   183 | ude_target->target_component, set_attitude_target->type_mask, [01;35m[Kset_attitude_target->q[m[K, set_attitude_target->body_roll_rate, set_attitude_target->body_pitch_rate, set_attitude_target->body_yaw_rate, set_attitude_target->thrust, set_attitude_target->thrust_body);
+[4.353s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.353s] 
+[4.353s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2567[m[K,
+[4.353s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[4.353s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:5[m[K,
+[4.353s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5[m[K,
+[4.353s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[4.353s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:183:406:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.353s]   183 | _attitude_target->body_yaw_rate, set_attitude_target->thrust, [01;35m[Kset_attitude_target->thrust_body[m[K);
+[4.353s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.353s] 
+[4.353s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_attitude_target_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_attitude_target_t*)[m[K’:
+[4.353s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:197:253:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.353s]   197 | ude_target->target_component, set_attitude_target->type_mask, [01;35m[Kset_attitude_target->q[m[K, set_attitude_target->body_roll_rate, set_attitude_target->body_pitch_rate, set_attitude_target->body_yaw_rate, set_attitude_target->thrust, set_attitude_target->thrust_body);
+[4.354s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.354s] 
+[4.354s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:197:417:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.354s]   197 | _attitude_target->body_yaw_rate, set_attitude_target->thrust, [01;35m[Kset_attitude_target->thrust_body[m[K);
+[4.354s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.354s] 
+[4.391s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2610[m[K,
+[4.391s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[4.391s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:5[m[K,
+[4.391s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5[m[K,
+[4.391s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[4.391s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_distance_sensor_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_distance_sensor_t*)[m[K’:
+[4.391s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:200:387:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_distance_sensor_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.391s]   200 | , distance_sensor->horizontal_fov, distance_sensor->vertical_fov, [01;35m[Kdistance_sensor->quaternion[m[K, distance_sensor->signal_quality);
+[4.391s]       |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.391s] 
+[4.391s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_distance_sensor_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_distance_sensor_t*)[m[K’:
+[4.391s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:214:398:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_distance_sensor_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.391s]   214 | , distance_sensor->horizontal_fov, distance_sensor->vertical_fov, [01;35m[Kdistance_sensor->quaternion[m[K, distance_sensor->signal_quality);
+[4.391s]       |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.391s] 
+[4.403s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2624[m[K,
+[4.403s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[4.403s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:5[m[K,
+[4.403s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5[m[K,
+[4.403s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[4.403s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_battery_status_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_battery_status_t*)[m[K’:
+[4.403s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:219:195:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.403s]   219 | ttery_function, battery_status->type, battery_status->temperature, [01;35m[Kbattery_status->voltages[m[K, battery_status->current_battery, battery_status->current_consumed, battery_status->energy_consumed, battery_status->battery_remaining, battery_status->time_remaining, battery_status->charge_state, battery_status->voltages_ext, battery_status->mode, battery_status->fault_bitmask);
+[4.403s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.403s] 
+[4.403s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:219:418:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.403s]   219 | ing, battery_status->time_remaining, battery_status->charge_state, [01;35m[Kbattery_status->voltages_ext[m[K, battery_status->mode, battery_status->fault_bitmask);
+[4.403s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[4.403s] 
+[4.403s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_battery_status_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_battery_status_t*)[m[K’:
+[4.404s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:233:206:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.404s]   233 | ttery_function, battery_status->type, battery_status->temperature, [01;35m[Kbattery_status->voltages[m[K, battery_status->current_battery, battery_status->current_consumed, battery_status->energy_consumed, battery_status->battery_remaining, battery_status->time_remaining, battery_status->charge_state, battery_status->voltages_ext, battery_status->mode, battery_status->fault_bitmask);
+[4.404s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.404s] 
+[4.404s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:233:429:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.404s]   233 | ing, battery_status->time_remaining, battery_status->charge_state, [01;35m[Kbattery_status->voltages_ext[m[K, battery_status->mode, battery_status->fault_bitmask);
+[4.404s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[4.404s] 
+[4.405s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2626[m[K,
+[4.405s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[4.405s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:5[m[K,
+[4.405s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5[m[K,
+[4.406s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[4.406s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_landing_target_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_landing_target_t*)[m[K’:
+[4.406s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:218:349:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_landing_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.406s]   218 | ->size_y, landing_target->x, landing_target->y, landing_target->z, [01;35m[Klanding_target->q[m[K, landing_target->type, landing_target->position_valid);
+[4.406s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[4.406s] 
+[4.406s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_landing_target_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_landing_target_t*)[m[K’:
+[4.406s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:232:360:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_landing_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.406s]   232 | ->size_y, landing_target->x, landing_target->y, landing_target->z, [01;35m[Klanding_target->q[m[K, landing_target->type, landing_target->position_valid);
+[4.406s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[4.406s] 
+[4.418s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2637[m[K,
+[4.418s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[4.418s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:5[m[K,
+[4.418s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5[m[K,
+[4.418s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[4.418s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_home_position_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_home_position_t*)[m[K’:
+[4.418s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:191:218:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.419s]   191 | on->altitude, home_position->x, home_position->y, home_position->z, [01;35m[Khome_position->q[m[K, home_position->approach_x, home_position->approach_y, home_position->approach_z, home_position->time_usec);
+[4.419s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[4.419s] 
+[4.419s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_home_position_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_home_position_t*)[m[K’:
+[4.419s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:205:229:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.419s]   205 | on->altitude, home_position->x, home_position->y, home_position->z, [01;35m[Khome_position->q[m[K, home_position->approach_x, home_position->approach_y, home_position->approach_z, home_position->time_usec);
+[4.419s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[4.419s] 
+[4.419s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2638[m[K,
+[4.419s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[4.419s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:5[m[K,
+[4.419s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5[m[K,
+[4.419s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[4.420s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_home_position_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_home_position_t*)[m[K’:
+[4.420s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:200:284:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.420s]   200 | t_home_position->x, set_home_position->y, set_home_position->z, [01;35m[Kset_home_position->q[m[K, set_home_position->approach_x, set_home_position->approach_y, set_home_position->approach_z, set_home_position->time_usec);
+[4.420s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[4.420s] 
+[4.420s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_home_position_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_home_position_t*)[m[K’:
+[4.420s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:214:295:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.420s]   214 | t_home_position->x, set_home_position->y, set_home_position->z, [01;35m[Kset_home_position->q[m[K, set_home_position->approach_x, set_home_position->approach_y, set_home_position->approach_z, set_home_position->time_usec);
+[4.420s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[4.420s] 
+[4.731s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2688[m[K,
+[4.732s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[4.732s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:5[m[K,
+[4.732s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5[m[K,
+[4.732s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[4.732s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_obstacle_distance_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_obstacle_distance_t*)[m[K’:
+[4.732s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:173:158:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_obstacle_distance_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.732s]   173 | , obstacle_distance->time_usec, obstacle_distance->sensor_type, [01;35m[Kobstacle_distance->distances[m[K, obstacle_distance->increment, obstacle_distance->min_distance, obstacle_distance->max_distance, obstacle_distance->increment_f, obstacle_distance->angle_offset, obstacle_distance->frame);
+[4.732s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[4.732s] 
+[4.732s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_obstacle_distance_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_obstacle_distance_t*)[m[K’:
+[4.732s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:187:169:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_obstacle_distance_t[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[4.732s]   187 | , obstacle_distance->time_usec, obstacle_distance->sensor_type, [01;35m[Kobstacle_distance->distances[m[K, obstacle_distance->increment, obstacle_distance->min_distance, obstacle_distance->max_distance, obstacle_distance->increment_f, obstacle_distance->angle_offset, obstacle_distance->frame);
+[4.732s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[4.732s] 
+[4.789s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/gimbal_protocol_v2.h:37[m[K,
+[4.789s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:6[m[K,
+[4.789s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[4.789s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:[m[K At global scope:
+[4.789s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:255:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_system::compid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.789s]   255 |     mavlink_system_t _gimbal = { 0 [01;35m[K}[m[K;
+[4.789s]       |                                    [01;35m[K^[m[K
+[4.789s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.789s]   258 |     mavlink_command_ack_t _ack = { 0 [01;35m[K}[m[K;
+[4.789s]       |                                      [01;35m[K^[m[K
+[4.789s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::progress[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.790s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::result_param2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.790s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::target_system[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[4.790s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::target_component[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.664s] In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5[m[K,
+[5.664s]                  from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/src/gimbal_status_node.cpp:3[m[K:
+[5.665s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:27:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpayload_uart_baud[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.665s]    27 | static int [01;35m[Kpayload_uart_baud[m[K = 115200;
+[5.665s]       |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[5.665s] [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status/../PayloadSdk/libs/x86_64/payloadsdk.h:26:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpayload_uart_port[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.665s]    26 | static char *[01;35m[Kpayload_uart_port[m[K = (char*)"/dev/ttyUSB0";
+[5.665s]       |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[7.227s] [100%] [32m[1mLinking CXX executable gimbal_status_node[0m
+[7.429s] [100%] Built target gimbal_status_node
+[7.438s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status -- -j12 -l12
+[7.440s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status
+[7.447s] -- Install configuration: "Debug"
+[7.447s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/lib/gimbal_status/gimbal_status_node
+[7.449s] -- Set runtime path of "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/lib/gimbal_status/gimbal_status_node" to ""
+[7.449s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/ament_index/resource_index/package_run_dependencies/gimbal_status
+[7.450s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/ament_index/resource_index/parent_prefix_path/gimbal_status
+[7.450s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.sh
+[7.450s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.dsv
+[7.450s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/path.sh
+[7.450s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/path.dsv
+[7.450s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.bash
+[7.450s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.sh
+[7.450s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.zsh
+[7.450s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.dsv
+[7.451s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.dsv
+[7.451s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/ament_index/resource_index/packages/gimbal_status
+[7.451s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig.cmake
+[7.451s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig-version.cmake
+[7.451s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.xml
+[7.453s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/opencv_tests:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status

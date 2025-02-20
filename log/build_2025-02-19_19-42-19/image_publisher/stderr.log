@@ -1,0 +1,14 @@
+[01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher/src/image_publisher.cpp:[m[K In constructor ‘[01m[Kimage_publisher::ImagePublisher::ImagePublisher(const rclcpp::NodeOptions&, const string&)[m[K’:
+[01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher/src/image_publisher.cpp:69:50:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kimage_transport::CameraPublisher image_transport::create_camera_publisher(rclcpp::Node*, const string&, rmw_qos_profile_t)[m[K’
+   69 |   pub_ = [01;31m[Kimage_transport::create_camera_publisher(this, topic_name, rmw_qos_profile_default,[m[K
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   70 | [01;31m[K      pub_options)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~[m[K                                
+In file included from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher/include/image_publisher/image_publisher.hpp:38[m[K,
+                 from [01m[K/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher/src/image_publisher.cpp:48[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:74:17:[m[K [01;36m[Knote: [m[Kdeclared here
+   74 | CameraPublisher [01;36m[Kcreate_camera_publisher[m[K(
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/image_publisher.dir/build.make:76: CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,16 @@
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib/ir_image/ir_image_node
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/package_run_dependencies/ir_image
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/parent_prefix_path/ir_image
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/ament_prefix_path.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/ament_prefix_path.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/path.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/path.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.bash
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.zsh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/packages/ir_image
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/cmake/ir_imageConfig.cmake
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/cmake/ir_imageConfig-version.cmake
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.xml

@@ -1,0 +1,18 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (-) JobUnselected: {'identifier': 'PayloadSDK'}
+[0.000452] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.000476] (-) JobUnselected: {'identifier': 'eo_image'}
+[0.000498] (-) JobUnselected: {'identifier': 'eo_zoom'}
+[0.000518] (-) JobUnselected: {'identifier': 'gimbal_angle_control'}
+[0.000538] (-) JobUnselected: {'identifier': 'gimbal_status'}
+[0.000559] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.000579] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000598] (-) JobUnselected: {'identifier': 'image_viewer'}
+[0.000618] (-) JobUnselected: {'identifier': 'ir_image'}
+[0.000637] (-) JobUnselected: {'identifier': 'ir_zoom'}
+[0.000657] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.000676] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.000700] (yolo_detection) JobQueued: {'identifier': 'yolo_detection', 'dependencies': OrderedDict([('cv_bridge', '/home/wuyi/Downloads/ros2_gimbal_ws_0219/install/cv_bridge')])}
+[0.000863] (yolo_detection) JobStarted: {'identifier': 'yolo_detection'}
+[0.009189] (yolo_detection) JobEnded: {'identifier': 'yolo_detection', 'rc': 1}
+[0.019557] (-) EventReactorShutdown: {}

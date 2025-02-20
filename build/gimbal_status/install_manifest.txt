@@ -1,0 +1,16 @@
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/lib/gimbal_status/gimbal_status_node
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/ament_index/resource_index/package_run_dependencies/gimbal_status
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/ament_index/resource_index/parent_prefix_path/gimbal_status
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/path.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/path.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.bash
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.zsh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/ament_index/resource_index/packages/gimbal_status
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig.cmake
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig-version.cmake
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.xml

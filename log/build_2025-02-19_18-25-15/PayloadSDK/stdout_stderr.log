@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target get_video_streaming[0m
+[ 17%] Built target eo_capture_image
+[ 17%] Built target load_payload_settings
+[ 21%] Built target connect
+[ 28%] Built target gimbal_set_mode
+[ 35%] Built target eo_set_camera_zoom_focus
+[ 64%] Built target eo_record_video
+[ 64%] Built target ir_record_video
+[ 64%] Built target move_gimbal_speed_mode
+[ 64%] Built target move_gimbal_angle_mode
+[ 71%] Built target get_video_streaming
+[ 85%] Built target ir_capture_image
+[ 85%] Built target ir_set_camera_zoom
+[100%] Built target ir_set_palete
+[100%] Built target download_media_files

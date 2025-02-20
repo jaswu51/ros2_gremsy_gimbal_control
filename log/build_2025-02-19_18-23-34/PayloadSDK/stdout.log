@@ -1,0 +1,33 @@
+-- SUBMODULE_VAR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK
+[35m[1mConsolidate compiler generated dependencies of target connect[0m
+[35m[1mConsolidate compiler generated dependencies of target eo_capture_image[0m
+[35m[1mConsolidate compiler generated dependencies of target load_payload_settings[0m
+[35m[1mConsolidate compiler generated dependencies of target move_gimbal_angle_mode[0m
+[35m[1mConsolidate compiler generated dependencies of target eo_record_video[0m
+[35m[1mConsolidate compiler generated dependencies of target gimbal_set_mode[0m
+[35m[1mConsolidate compiler generated dependencies of target move_gimbal_speed_mode[0m
+[35m[1mConsolidate compiler generated dependencies of target ir_record_video[0m
+[35m[1mConsolidate compiler generated dependencies of target eo_set_camera_zoom_focus[0m
+[35m[1mConsolidate compiler generated dependencies of target ir_capture_image[0m
+[35m[1mConsolidate compiler generated dependencies of target ir_set_camera_zoom[0m
+[  3%] [32mBuilding CXX object examples/CMakeFiles/get_video_streaming.dir/get_video_streaming.cpp.o[0m
+[ 10%] Built target connect
+[ 17%] Built target load_payload_settings
+[ 25%] Built target move_gimbal_angle_mode
+[ 32%] Built target eo_record_video
+[ 39%] Built target eo_capture_image
+[ 53%] Built target ir_record_video
+[ 53%] Built target gimbal_set_mode
+[ 60%] Built target move_gimbal_speed_mode
+[ 71%] Built target ir_capture_image
+[ 82%] Built target eo_set_camera_zoom_focus
+[ 82%] Built target ir_set_camera_zoom
+[35m[1mConsolidate compiler generated dependencies of target ir_set_palete[0m
+[35m[1mConsolidate compiler generated dependencies of target download_media_files[0m
+[ 89%] Built target ir_set_palete
+[ 96%] Built target download_media_files
+[100%] [32m[1mLinking CXX executable get_video_streaming[0m
+[100%] Built target get_video_streaming

@@ -1,0 +1,22 @@
+[0.032s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom -- -j12 -l12
+[0.196s] [100%] Built target gimbal_zoom
+[0.280s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom -- -j12 -l12
+[0.283s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom
+[0.309s] -- Install configuration: "Debug"
+[0.310s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/lib/gimbal_zoom/gimbal_zoom
+[0.310s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/ament_index/resource_index/package_run_dependencies/gimbal_zoom
+[0.310s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/ament_index/resource_index/parent_prefix_path/gimbal_zoom
+[0.310s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/environment/ament_prefix_path.sh
+[0.310s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/environment/ament_prefix_path.dsv
+[0.310s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/environment/path.sh
+[0.310s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/environment/path.dsv
+[0.311s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/local_setup.bash
+[0.311s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/local_setup.sh
+[0.311s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/local_setup.zsh
+[0.311s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/local_setup.dsv
+[0.311s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.dsv
+[0.311s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/ament_index/resource_index/packages/gimbal_zoom
+[0.312s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/cmake/gimbal_zoomConfig.cmake
+[0.312s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/cmake/gimbal_zoomConfig-version.cmake
+[0.313s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_zoom/share/gimbal_zoom/package.xml
+[0.344s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_zoom

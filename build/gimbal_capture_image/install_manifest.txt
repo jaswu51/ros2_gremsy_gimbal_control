@@ -1,0 +1,16 @@
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/lib/gimbal_capture_image/gimbal_capture_image
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/ament_index/resource_index/package_run_dependencies/gimbal_capture_image
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/ament_index/resource_index/parent_prefix_path/gimbal_capture_image
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/environment/ament_prefix_path.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/environment/ament_prefix_path.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/environment/path.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/environment/path.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/local_setup.bash
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/local_setup.sh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/local_setup.zsh
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/local_setup.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/package.dsv
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/ament_index/resource_index/packages/gimbal_capture_image
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/cmake/gimbal_capture_imageConfig.cmake
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/cmake/gimbal_capture_imageConfig-version.cmake
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_capture_image/share/gimbal_capture_image/package.xml
