@@ -2,7 +2,7 @@
 
 ## Build and Run the Workspace
 ```bash
-cd ros2_gimbal_ws
+cd ros2_gremsy_gimbal_control
 colcon build --cmake-args -DGHADRON=1
 source install/setup.bash
 ```
